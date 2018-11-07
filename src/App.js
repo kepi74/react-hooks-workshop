@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import WindowDimensions from './WindowDimensions';
-import DataFetch from './DataFetch';
+import DataFetchHook from './DataFetchHook';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
           <h1>Bluebberry React Hooks Workshop</h1>
         </header>
         <WindowDimensions />
-        <DataFetch />
+        <DataFetchHook />
       </div>
     );
   }

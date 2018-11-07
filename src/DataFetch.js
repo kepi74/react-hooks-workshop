@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class WindowDimensions extends Component {
+class DataFetch extends Component {
   constructor(props) {
     super(props);
 
@@ -35,4 +35,4 @@ class WindowDimensions extends Component {
   }
 }
 
-export default WindowDimensions;
+export default DataFetch;
